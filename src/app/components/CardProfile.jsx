@@ -12,7 +12,7 @@ const CardProfile = ({ user }) => {
 
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
   const [bukaS, setBukaS] = useState(false)
-
+  
   function showS() {
     bukaS(console.log("Memanggil"))
   }

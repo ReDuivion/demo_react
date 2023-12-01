@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Grids from "../components/Grids";
 import Image from 'next/image'
 import bgImg2 from "../assets/2.jpg"
 
