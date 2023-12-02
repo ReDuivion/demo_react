@@ -1,5 +1,3 @@
-import React from 'react'
+import React from "react";
 
-export const getUsers = async () => {
-    
-}
+export const getUsers = async () => {};

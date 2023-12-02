@@ -1,8 +1,8 @@
 // components/CategorySearch.js
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const CategorySearch = ({ onFilter }) => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
@@ -16,7 +16,10 @@ const CategorySearch = ({ onFilter }) => {
 
   return (
     <form onSubmit={handleSubmit} className="mb-4">
-      <label htmlFor="search" className="block text-gray-700 text-sm font-bold mb-2">
+      <label
+        htmlFor="search"
+        className="block text-gray-700 text-sm font-bold mb-2"
+      >
         Search Name:
       </label>
       <div className="flex">

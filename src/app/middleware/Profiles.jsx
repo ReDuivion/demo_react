@@ -9,7 +9,8 @@ const Profiles = [
     email: "Aku hanya ingin app.get(him)",
     avatar: "0.png",
     gender: false,
-    sosialig: "https://www.instagram.com/ririenesu/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg==",
+    sosialig:
+      "https://www.instagram.com/ririenesu/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg==",
     sosialfb: "",
   },
   {
@@ -185,7 +186,7 @@ const Profiles = [
     gender: true,
   },
   {
-    id: 34, 
+    id: 34,
     name: "Reyka",
     email: "Reyka@yahoo.com",
     avatar: "34.png",
